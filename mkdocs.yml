@@ -1,6 +1,6 @@
 site_name: 'Sample React App'
 nav:
-  - Home: index.md
+  - Home: index.html
 plugins:
   - techdocs-core
 theme:
