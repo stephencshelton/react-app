@@ -4,4 +4,4 @@ nav:
 plugins:
   - techdocs-core
 theme:
-  name: 'material'
+  name: 'mkdocs'
