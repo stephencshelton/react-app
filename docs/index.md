@@ -13,10 +13,13 @@
 
 <dl>
 <dt><a href="#App">App()</a></dt>
-<dd><p>This is a junky component.</p>
+<dd><p>This is the main application component.</p>
 </dd>
 <dt><a href="#HomePage">HomePage()</a></dt>
 <dd><p>This is a homepage component.</p>
+</dd>
+<dt><a href="#PoorlyWrittenComponent">PoorlyWrittenComponent()</a></dt>
+<dd><p>This component is poorly written and demonstrates insecure code.</p>
 </dd>
 <dt><a href="#reportWebVitals">reportWebVitals()</a></dt>
 <dd><p>This is a performance component.</p>
@@ -40,7 +43,7 @@ This is a render component.
 <a name="App"></a>
 
 ## App()
-This is a junky component.
+This is the main application component.
 
 **Kind**: global function  
 **Component**:   
@@ -48,6 +51,13 @@ This is a junky component.
 
 ## HomePage()
 This is a homepage component.
+
+**Kind**: global function  
+**Component**:   
+<a name="PoorlyWrittenComponent"></a>
+
+## PoorlyWrittenComponent()
+This component is poorly written and demonstrates insecure code.
 
 **Kind**: global function  
 **Component**:   
