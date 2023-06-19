@@ -5,6 +5,7 @@ metadata:
   description: My awesome React application
   annotations:
     github.com/project-slug: stephencshelton/react-app
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   lifecycle: production

@@ -1,0 +1,7 @@
+site_name: 'Sample React App'
+nav:
+  - Home: index.md
+plugins:
+  - techdocs-core
+theme:
+  name: 'material'
