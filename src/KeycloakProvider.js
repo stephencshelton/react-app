@@ -3,7 +3,10 @@ import Keycloak from 'keycloak-js';
 import { keycloakConfig } from './config';
 
 const KeycloakContext = React.createContext();
-
+/**
+ * This is the keycloak provider that integrates with keycloak.
+ * @component
+ */
 export const KeycloakProvider = ({ children }) => {
   const [keycloak, setKeycloak] = useState(null);
   const [initialized, setInitialized] = useState(true); // Change this line

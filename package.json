@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docs": "jsdoc -c jsdoc.json"
+    "doc": "jsdoc2md --configure jsdoc.json --source src/*.js > docs/index.md"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +38,9 @@
     ]
   },
   "devDependencies": {
-    "jsdoc": "^4.0.2"
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "^8.0.0",
+    "json2md": "^2.0.0",
+    "react-docgen": "^5.4.3"
   }
 }

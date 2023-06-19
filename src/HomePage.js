@@ -2,6 +2,10 @@ import React from 'react';
 import { useKeycloak } from './KeycloakProvider';
 import './HomePage.css';
 
+/**
+ * This is a homepage component.
+ * @component
+ */
 const HomePage = () => {
   const { keycloak, login } = useKeycloak();
 
