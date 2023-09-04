@@ -41,6 +41,6 @@
     "jsdoc": "^4.0.2",
     "jsdoc-to-markdown": "^8.0.0",
     "json2md": "^2.0.0",
-    "react-docgen": "^5.4.3"
+    "react-docgen": "^6.0.4"
   }
 }
